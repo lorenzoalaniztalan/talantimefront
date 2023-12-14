@@ -1,0 +1,29 @@
+name: http_schedule_api
+description: A Flutter implementation of the schedule_api
+version: 0.1.0+1
+publish_to: none
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+  flutter: 3.10.0
+
+dependencies:
+  common_models_repository:
+    path: '../common_models_repository'
+  dio: ^5.2.1+1
+  equatable: ^2.0.5
+  flutter:
+    sdk: flutter
+  intl: ^0.18.0
+  json_annotation: ^4.8.1
+  meta: ^1.9.1
+  schedule_api:
+    path: ../schedule_api
+
+dev_dependencies:
+  build_runner: ^2.4.5
+  flutter_test:
+    sdk: flutter
+  json_serializable: ^6.7.0
+  mocktail: ^0.3.0
+  very_good_analysis: ^5.0.0

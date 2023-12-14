@@ -1,0 +1,24 @@
+name: http_absence_api
+description: A Flutter implementation of the absence_api with dio.
+version: 0.1.0+1
+publish_to: none
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+  flutter: 3.10.0
+
+dependencies:
+  common_models_repository:
+    path: '../common_models_repository'
+  dio: ^5.2.1+1
+  flutter:
+    sdk: flutter
+  http_parser: ^4.0.2
+  absence_api:
+    path: '../absence_api'
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  mocktail: ^0.3.0
+  very_good_analysis: ^5.0.0
