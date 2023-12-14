@@ -60,7 +60,7 @@
     "@scheduleConfirmHoursDialogMessage": {
         "description": "Text shown as message in a dialog when submitting hours"
     },
-    "scheduleUnconfirmedPreviousMonthsAlert": "You have previous months pending confirmation.",
+    "scheduleUnconfirmedPreviousMonthsAlert": "You have previous days pending confirmation.",
     "scheduleConfirmedHoursButton": "Time entries validated",
     "scheduleUnconfirmedPreviousMonthsTitle": "No validated months",
     "scheduleConfirmedHoursTitle": "Schedule on",

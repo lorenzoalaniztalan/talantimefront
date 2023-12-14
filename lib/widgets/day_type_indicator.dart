@@ -14,7 +14,7 @@ class ScheduleDayTypeIndicator extends StatelessWidget {
         style: TextStyle(
           color: (day?.confirmed ?? false)
               ? TalanAppColors.success
-              : TalanAppColors.callToAction,
+              : TalanAppColors.error,
         ),
       );
     }
