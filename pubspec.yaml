@@ -58,7 +58,7 @@ dependencies:
   preferences_repository:
     path: 'packages/preferences_repository'
   provider: ^6.0.5
-  rename: ^2.1.1
+  rename: ^3.0.1
   responsive_framework: ^1.1.0
   schedule_api:
     path: packages/schedule_api
