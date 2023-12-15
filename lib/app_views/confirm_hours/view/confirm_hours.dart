@@ -297,7 +297,7 @@ class ConfirmHoursView extends StatelessWidget {
                                 spacerXs,
                                 TalanText.headlineMedium(
                                   text:
-                                      '${(state.monthSchedule?.values.whereType<WorkingDay>().length ?? 0) * 8}h',
+                                      '${(state.monthSchedule?.values.where((element) => element.confirmed != null && element.confirmed!).length ?? 0) * 8}h',
                                   style: const TextStyle(
                                     color: TalanAppColors.success,
                                   ),
