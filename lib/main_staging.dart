@@ -18,7 +18,7 @@ void main() async {
   await bootstrap(
     () async {
       // TODO(ApiUrl): Change this to your staging API URL.
-      final apiClient = HttpClientSetup('http://127.0.0.1:5000/api');
+      final apiClient = HttpClientSetup('https://talantime-api-3da396362858.herokuapp.com/');
       await apiClient.initializeClient();
       const preferencesRepository = PreferencesRepository(
         preferencesApi: SecurePreferencesApi(client: FlutterSecureStorage()),
